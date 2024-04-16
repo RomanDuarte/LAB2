@@ -7,7 +7,7 @@
     <!-- Icono de la pestaña -->
 </head>
 
-<body>
+<body class="c">
 
     <h1>MI PAGINA WEB</h1> <!-- TITULO EN GRANDE -->
     <p>
@@ -21,11 +21,22 @@
         </small> </p>
 
     <hr>
-
+    
     <h3>Titulo h3</h3>
     <p><del>Palabra 1</del> <ins> palabra 2 </ins> <sub> palabra 3 </sub> <sup> palabra 4</sup> </p>
 
     <hr>
+
+    <style>
+        .c {
+                display: flex;
+                width: 100%;
+                padding: 5px var(--32, 32px);
+                gap: 5px;
+                align-items: flex-start;
+                justify-content: center;
+            }
+    </style>
 
     <h4>Lista desordenada</h4>
     <ul>
