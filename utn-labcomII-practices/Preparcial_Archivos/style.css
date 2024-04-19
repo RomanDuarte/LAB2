@@ -1,0 +1,142 @@
+@import url('');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  HEADER  */
+
+header {
+    background-color: rgb(240, 240, 240);
+    display: flex ;
+    justify-items:;
+    align-items: center ;
+}
+
+header .logo {
+    height: 40px;
+    padding: 10px;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+header nav ul {
+    list-style-type: style type point;;
+    margin: 10px;
+}
+
+header nav ul li {
+    display: flex
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    font-family: ;
+    color: #333;
+    padding: 20px;
+    text-transform: ;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #6e6e6e;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid #333333;
+}
+
+header .profile a {
+    color: #333333;
+    padding: 10px 30px;
+    display: block;
+}
+
+header .profile svg {
+    width: 30px;
+}
+
+
+/*  MAIN  */
+
+main section {
+    display: flex;
+    min-height: 300px;
+}
+
+section.dark {
+    background-color:;
+    color: ;
+}
+
+section.fullwidth {
+    justify-content: ;
+    align-items: ;
+}
+
+section.fullwidth h2 {
+    text-align: ;
+}
+
+section.main-image>div {
+    flex: 1;
+}
+
+.center-both {
+    display: ;
+    justify-content: ;
+    align-items: ;
+}
+
+.img-background {
+    background: url('https://www.utn.edu.ar/images/2018/09/27/3foferta3.jpg');
+}
+
+.img-background h1 {
+    color: #ffffff;
+}
+
+.img-content p {
+    font-size: 18px;
+    padding: 45px;
+}
+
+.careers-container {
+    width: 80%;
+    padding: 30px 0px;
+}
+
+.careers {
+    display: ;
+    justify-content: ;
+}
+
+.careers .career {
+    flex: 1;
+    padding: 20px;
+}
+
+.careers .career:hover {
+    background-color: ;
+}
+
+
+/*  FOOTER  */
+
+footer {
+    display: grid;
+    grid-template-columns: ;
+    background-color: ;
+}
+
+footer>div {
+    padding: 20px;
+}
