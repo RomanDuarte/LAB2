@@ -1,9 +1,10 @@
 @import url('');
+
 html,
 body {
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -11,18 +12,18 @@ a {
 }
 
 
-/*  HEADER  */
+/* HEADER */
 
 header {
-    background-color: rgb(240, 240, 240);
-    display: flex ;
-    justify-items:;
-    align-items: center ;
+    background-color: rgb(238, 233, 233);
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
 }
 
 header .logo {
-    height: 40px;
-    padding: 10px;
+    height: 30px;
+    padding: 30px;
 }
 
 header nav {
@@ -30,24 +31,25 @@ header nav {
 }
 
 header nav ul {
-    list-style-type: style type point;;
-    margin: 10px;
+    list-style-type: none; /* Arreglado */
+    margin:0 ; /* Arreglado */
+   
 }
 
 header nav ul li {
-    display: flex
     margin-right: 20px;
+    display: inline; /* Cambiado de flex a inline */
 }
 
 header nav ul li a {
-    font-family: ;
-    color: #333;
-    padding: 20px;
-    text-transform: ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #383838;
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 header nav ul li a:hover {
-    border-bottom: 2px solid #6e6e6e;
+    border-bottom: 2px solid #646464;
 }
 
 header nav ul li a.active {
@@ -65,7 +67,7 @@ header .profile svg {
 }
 
 
-/*  MAIN  */
+/* MAIN */
 
 main section {
     display: flex;
@@ -73,17 +75,18 @@ main section {
 }
 
 section.dark {
-    background-color:;
-    color: ;
+    background-color: rgb(44, 43, 43);
+    color: rgb(184, 184, 184);
 }
 
 section.fullwidth {
-    justify-content: ;
-    align-items: ;
+    justify-content:center;
+    display: flex;
+    align-items: flex-end; /* Alinea los elementos al fondo */
 }
 
 section.fullwidth h2 {
-    text-align: ;
+    text-align: center; /* Alinea el texto al centro */
 }
 
 section.main-image>div {
@@ -91,13 +94,13 @@ section.main-image>div {
 }
 
 .center-both {
-    display: ;
-    justify-content: ;
-    align-items: ;
+    display: flex; /* Establece el contenedor como flexible */
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
 }
 
 .img-background {
-    background: url('https://www.utn.edu.ar/images/2018/09/27/3foferta3.jpg');
+    background: url('img/utn-alumnos.jpg') center/cover; /* Agregado un ejemplo de fondo */
 }
 
 .img-background h1 {
@@ -107,36 +110,40 @@ section.main-image>div {
 .img-content p {
     font-size: 18px;
     padding: 45px;
+    
 }
 
 .careers-container {
     width: 80%;
     padding: 30px 0px;
+    
 }
 
 .careers {
-    display: ;
-    justify-content: ;
+    display: flex;
+    justify-content: 10px; /* Espacio entre los elementos */
 }
 
 .careers .career {
     flex: 1;
     padding: 20px;
+
 }
 
 .careers .career:hover {
-    background-color: ;
+    background-color: lightgray;
+    color: grey;
 }
 
 
-/*  FOOTER  */
+/* FOOTER */
 
 footer {
     display: grid;
-    grid-template-columns: ;
-    background-color: ;
+    grid-template-columns: repeat(4, 25%); /* Crea 3 columnas iguales */
+    background-color: #ffffff; /* Añadido un color de fondo */
 }
 
 footer>div {
-    padding: 20px;
+    padding: 30px;
 }
