@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+
+* {
+  font-family: Releway, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: ;
+  padding: ;
+
+}
+
+/* MENU: NAVBAR/HEADER */
+
+nav {
+  background-color: #34495E;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #eeeeee;
+  text-transform: ;
+  text-decoration: none;
+  font-weight: 100;
+  width: 100%;
+  display: block;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(131, 145, 146, 0.3);
+}
+
+/* SECTION MAIN IMAGE */
+
+#section-main-image {
+  height: 65vh;
+  background-image: url('/utn-labcomII-practices/evaluacion-parcial-ejercicio-template/evaluacion-parcial-DuarteSergio/images/cc-bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#section-main-image h1 {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  font-size: 50px;
+}
+
+#section-main-image h2 {
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+}
+
+
+.profile-picture {
+  max-height: 100px;
+  align-content: center;
+  border-radius: 10em;
+  box-shadow: rgba(20, 20, 20, 0.3);
+  border: #74a0cc;
+}
+
+/* SECTION SECCIONES */
+
+#section-secciones h2 {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+
+}
+
+#article-secciones-experiencia h2 {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.article-section-secciones p {
+  text-align: justify;
+}
+
+.article-section-secciones p::first-letter {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#section-secciones {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+
+}
+
+
+
+/*EXPERIENCIA*/
+.list-wrapper-experiencia {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+/* List component */
+.list-experiencia {
+  background-color: white;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.list-experiencia .list-item-experiencia {
+  display: flex;
+  padding: 10px 5px;
+}
+
+.list-experiencia .list-item-experiencia:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.list-experiencia .list-item__image-experiencia {
+  flex-shrink: 0;
+  height: 80px;
+}
+
+.list-experiencia .list-item__image-experiencia img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.list-experiencia .list-item__content-experiencia {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.list-experiencia .list-item__content-experiencia h4 {
+  margin: 15px;
+  font-size: 18px;
+}
+
+.listexperiencia .list-item__content-experiencia p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #AAA;
+}
+
+/*CONOCIMIENTOS*/
+.contenedor-conocimientos {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-conocimientos {
+  display: flex;
+}
+
+.card-conocimientos {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 7px 0px lightgray;
+  border: 0;
+  width: 200px;
+  background-color: white;
+}
+
+.cuerpo-conocimientos {
+  flex: 1 1 0;
+  margin: 5px;
+  padding: 8px;
+  font-size: 11px;
+}
+
+#article-secciones-conocimientos h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.title-conocimientos {
+  background: #34495E;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.pie-conocimientos {
+  background: #74a0cc;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+  background-color: #566573;
+  color: #eeeeee;
+  display: flexbox;
+  justify-content: ;
+}
+
+#footer-contact .contact-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer {
+  width: 80%;
+  padding: 0px 0px;
+}
+
+.contact-info li {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #74a0cc;
+}
+
+.contact-form form {
+  margin-left: 50px;
+  text-align: left;
+}
+
+.contact-form form .form-control {
+  padding: 10px 0;
+}
+
+.contact-form form .form-control input {}
+
+.contact-form form .form-control textarea {}
+
+.contact-form form .form-control label {
+  margin-right: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.contact-form form button {
+  margin-top: 15px;
+  color: #212F3C;
+  padding: 2px 30px;
+}
