@@ -21,6 +21,7 @@ nav {
   padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   color: #fd0000;
@@ -39,7 +40,7 @@ nav {
   color: #4d00f5;
 }
 .nav-item:hover{
-    background-color: lightgreen;
+    background-color: rgb(164, 0, 241);
 }
 .nav-item:hover a{
     color: black;
