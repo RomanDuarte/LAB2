@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+h1{
+    height: 20px;
+    color: #242424;
+    width: 900;
+}
+h2{
+    height: 20px;
+    color: #606060;
+    width: 800;
+}
+p{
+    height: 14px;
+}
+ul li{
+    font-family: monospace;
+    height: 18px;
+    padding: 10px;
+
+}
+ul a{
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul{
+    margin: left 100px;
+    padding: 20px;
+    border: blue solid 2px;
+    max-width: 40%;
+    list-style: none;
+}
+.verde{
+    color:green;
+}
+
+ul li:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
