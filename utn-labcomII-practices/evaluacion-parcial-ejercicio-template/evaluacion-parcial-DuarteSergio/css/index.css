@@ -57,7 +57,7 @@ nav ul li a:hover {
 #section-main-image {
   height: 65vh;
   background-image: url('/utn-labcomII-practices/evaluacion-parcial-ejercicio-template/evaluacion-parcial-DuarteSergio/images/cc-bg-1.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   width: 100%;
   display: flex;
