@@ -1,6 +1,9 @@
+"""cursos"""
 from parcial_disponibles import *
 empleados= []
 cursos = cursos_disponibles
+
+"""caso1"""
 
 def caso1():
     nombre =str(input("ingrese su nombre: "))
@@ -16,6 +19,8 @@ def caso1():
     else:
         empleados.append({"nombre":nombre,"legajo":legajo,"antiguedad":antiguedad,"cursos":[]})
     print("\ncompletado")
+
+"""caso2"""
 
 def caso2():
     buscar_legajo = input("ingrese su legajo: ")
@@ -43,9 +48,12 @@ def caso2():
                 else:
                     print("opcion invalida")
             break
-        if not encontrados:
-            print("no se encontro ningun empleado")
+    if not encontrados:
+        print("no se encontro ningun empleado")
     print("finalizado")
+
+
+"""caso3"""
 
 def caso3():
     if empleados:
@@ -60,6 +68,8 @@ def caso3():
     else:
         print("No hay empleados registrados.")
 
+
+"""menu"""
 while True:
     print("\nelija la opcion a elejir")
     print("1. registrar empleados")
